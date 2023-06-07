@@ -17,3 +17,8 @@ print(average_prices)
 reduced_prices = [price - 5 for price in prices]
 
 print(reduced_prices)
+
+# Total Revenue Generated from the Products
+
+total_revenue = sum(price * quantity for price, quantity in zip(prices, last_week))
+print(total_revenue)
