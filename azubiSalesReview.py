@@ -13,3 +13,7 @@ average_prices = total_prices / len(prices)
 print(average_prices)
 
 # A new price list with the prices reduced by $5
+
+reduced_prices = [price - 5 for price in prices]
+
+print(reduced_prices)
