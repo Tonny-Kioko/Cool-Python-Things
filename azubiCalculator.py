@@ -10,3 +10,4 @@ grandTotal = foodCharge + tip + salesTax
 print(tip)
 print(salesTax)
 print (grandTotal)
+
