@@ -28,4 +28,9 @@ print(total_revenue)
 average_daily_revenue = total_revenue / len(prices)
 print(average_daily_revenue)
 
-# Products w
+# Products costing less than $30
+
+for price in prices:
+    if price < 30:
+        print(price)
+        
