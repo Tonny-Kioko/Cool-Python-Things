@@ -22,3 +22,10 @@ print(reduced_prices)
 
 total_revenue = sum(price * quantity for price, quantity in zip(prices, last_week))
 print(total_revenue)
+
+#Average daily Revenue from the Products 
+
+average_daily_revenue = total_revenue / len(prices)
+print(average_daily_revenue)
+
+# Products w
